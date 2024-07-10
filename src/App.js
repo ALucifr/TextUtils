@@ -46,7 +46,7 @@ function App() {
         {/* <Navbar></Navbar> */}
         <div className="container">
           <Routes>
-            <Route key="about" exact path="/about" element={<About />}></Route>
+            <Route key="about" exact path="/About" element={<About />}></Route>
             <Route
               key="/"
               exact
