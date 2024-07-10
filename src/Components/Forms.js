@@ -56,30 +56,36 @@ export default function Forms(props) {
             rows={8}
           ></textarea>
         </div>
-        <button className="btn btn-primary" onClick={handleUpperCaseClick}>
+        <button className="btn btn-primary my-1" onClick={handleUpperCaseClick}>
           Convert to Uppercase
         </button>
-        <button className="btn btn-primary mx-1" onClick={handleLowerCaseClick}>
+        <button
+          className="btn btn-primary mx-1 my-1"
+          onClick={handleLowerCaseClick}
+        >
           Convert to Lowercase
         </button>
         <button
-          className="btn btn-primary mx-1"
+          className="btn btn-primary mx-1 my-1"
           onClick={handleCopyButtonClick}
         >
           Copy Text
         </button>
-        <button className="btn btn-primary mx-1" onClick={handleExtraSpaces}>
+        <button
+          className="btn btn-primary mx-1 my-1"
+          onClick={handleExtraSpaces}
+        >
           Remove Extra Spaces
         </button>
         <button
-          className="btn btn-primary mx-1"
+          className="btn btn-primary mx-1 my-1"
           onClick={handleUserNameButtonClick}
         >
           Create Username
         </button>
         <br />
         <button
-          className="btn btn-primary my-2"
+          className="btn btn-primary my-1"
           onClick={handleClearButtonClick}
         >
           Clear the Text
