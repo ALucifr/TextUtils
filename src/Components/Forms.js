@@ -92,7 +92,7 @@ export default function Forms(props) {
             text.split(" ").filter((element) => {
               return element !== 0;
             }).length
-          }{" "}
+          }
           words, {text.length} characters
         </p>
       </div>
